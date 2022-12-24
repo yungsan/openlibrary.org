@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Open Library | Open Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="left">
+        <img src="images/ia-logo.svg" alt="logo" />
+      </div>
+
+      <div class="right">
+        <button>
+          Donate
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-3 h-3"
+          >
+            <path
+              d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"
+            />
+          </svg>
+        </button>
+
+        <div class="lang">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav">
+      <div class="nav-item">
+        <img src="images/openlibrary-logo-tighter.svg" alt="logo" />
+      </div>
+      <div class="nav-item">
+        <a href="#">My Books</a>
+      </div>
+      <div class="nav-item browse">
+        <select>
+          <option value="Browse">Browse</option>
+        </select>
+      </div>
+      <div class="nav-item search">
+        <select name="type">
+          <option value="All">All</option>
+          <option value="All">Title</option>
+          <option value="All">Author</option>
+          <option value="All">Text</option>
+          <option value="All">Subjects</option>
+          <option value="All">Lists</option>
+          <option value="All">Advanced</option>
+        </select>
+        <div class="search-box">
+          <input
+            type="text"
+            name="keyword"
+            id="search"
+            placeholder="Search"
+          />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="nav-item user">
+        <a href="#">Login</a>
+        <button>Sign Up</button>
+      </div>
+      <div class="nav-item">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </div>
+    </div>
+    <div class="container">
+
+      <div class="content-slider">
+        <h4>Welcome to Open Library</h4>
+        <div class="slider">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 left"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-4.28 9.22a.75.75 0 000 1.06l3 3a.75.75 0 101.06-1.06l-1.72-1.72h5.69a.75.75 0 000-1.5h-5.69l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 right"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <div class="item">
+            <div class="image">
+              <img src="images/read.png" alt="item-img" />
+            </div>
+            <div class="text">
+              <h5>Read Free Library Books Online</h5>
+              <p>
+                Millions of books available through Controlled Digital Lending
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/read.png" alt="item-img" />
+            </div>
+            <div class="text">
+              <h5>Read Free Library Books Online</h5>
+              <p>
+                Millions of books available through Controlled Digital Lending
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/read.png" alt="item-img" />
+            </div>
+            <div class="text">
+              <h5>Read Free Library Books Online</h5>
+              <p>
+                Millions of books available through Controlled Digital Lending
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUCT CONTENT -->
+      <div class="title">
+        <h4><a href="#">Trending Books</a></h4>
+      </div>
+      <div class="content">
+        <div class="slider">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 left"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-4.28 9.22a.75.75 0 000 1.06l3 3a.75.75 0 101.06-1.06l-1.72-1.72h5.69a.75.75 0 000-1.5h-5.69l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 right"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <div class="item">
+            <div class="image">
+              <img src="images/1.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-outline">Preview</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/2.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/3.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Borrow</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/4.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/5.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/6.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <h4><a href="#">Trending Books</a></h4>
+      </div>
+      <div class="content">
+        <div class="slider">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 left"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-4.28 9.22a.75.75 0 000 1.06l3 3a.75.75 0 101.06-1.06l-1.72-1.72h5.69a.75.75 0 000-1.5h-5.69l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 right"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <div class="item">
+            <div class="image">
+              <img src="images/1.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-outline">Preview</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/2.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/3.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Borrow</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/4.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/5.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/6.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <h4><a href="#">Trending Books</a></h4>
+      </div>
+      <div class="content">
+        <div class="slider">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 left"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-4.28 9.22a.75.75 0 000 1.06l3 3a.75.75 0 101.06-1.06l-1.72-1.72h5.69a.75.75 0 000-1.5h-5.69l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 right"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <div class="item">
+            <div class="image">
+              <img src="images/1.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-outline">Preview</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/2.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/3.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Borrow</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/4.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/5.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/6.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <h4><a href="#">Trending Books</a></h4>
+      </div>
+      <div class="content">
+        <div class="slider">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 left"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-4.28 9.22a.75.75 0 000 1.06l3 3a.75.75 0 101.06-1.06l-1.72-1.72h5.69a.75.75 0 000-1.5h-5.69l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 right"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <div class="item">
+            <div class="image">
+              <img src="images/1.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-outline">Preview</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/2.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/3.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Borrow</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/4.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/5.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/6.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <h4><a href="#">Trending Books</a></h4>
+      </div>
+      <div class="content">
+        <div class="slider">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 left"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-4.28 9.22a.75.75 0 000 1.06l3 3a.75.75 0 101.06-1.06l-1.72-1.72h5.69a.75.75 0 000-1.5h-5.69l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 right"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <div class="item">
+            <div class="image">
+              <img src="images/1.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-outline">Preview</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/2.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/3.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Borrow</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/4.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/5.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/6.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <h4><a href="#">Trending Books</a></h4>
+      </div>
+      <div class="content">
+        <div class="slider">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 left"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-4.28 9.22a.75.75 0 000 1.06l3 3a.75.75 0 101.06-1.06l-1.72-1.72h5.69a.75.75 0 000-1.5h-5.69l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 right"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <div class="item">
+            <div class="image">
+              <img src="images/1.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-outline">Preview</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/2.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/3.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Borrow</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/4.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/5.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/6.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <h4><a href="#">Trending Books</a></h4>
+      </div>
+      <div class="content">
+        <div class="slider">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 left"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-4.28 9.22a.75.75 0 000 1.06l3 3a.75.75 0 101.06-1.06l-1.72-1.72h5.69a.75.75 0 000-1.5h-5.69l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 right"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <div class="item">
+            <div class="image">
+              <img src="images/1.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-outline">Preview</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/2.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/3.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Borrow</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/4.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/5.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/6.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <h4><a href="#">Trending Books</a></h4>
+      </div>
+      <div class="content">
+        <div class="slider">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 left"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-4.28 9.22a.75.75 0 000 1.06l3 3a.75.75 0 101.06-1.06l-1.72-1.72h5.69a.75.75 0 000-1.5h-5.69l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 right"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <div class="item">
+            <div class="image">
+              <img src="images/1.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-outline">Preview</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/2.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/3.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Borrow</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/4.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/5.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/6.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <h4><a href="#">Trending Books</a></h4>
+      </div>
+      <div class="content">
+        <div class="slider">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 left"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-4.28 9.22a.75.75 0 000 1.06l3 3a.75.75 0 101.06-1.06l-1.72-1.72h5.69a.75.75 0 000-1.5h-5.69l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 right"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <div class="item">
+            <div class="image">
+              <img src="images/1.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-outline">Preview</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/2.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/3.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Borrow</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/4.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/5.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/6.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <h4><a href="#">Trending Books</a></h4>
+      </div>
+      <div class="content">
+        <div class="slider">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 left"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-4.28 9.22a.75.75 0 000 1.06l3 3a.75.75 0 101.06-1.06l-1.72-1.72h5.69a.75.75 0 000-1.5h-5.69l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 right"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <div class="item">
+            <div class="image">
+              <img src="images/1.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-outline">Preview</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/2.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/3.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Borrow</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/4.jpg" alt="p-image" />
+            </div>
+            <button class="btn">Join Waitlist</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/5.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/6.jpg" alt="p-image" />
+            </div>
+            <button class="btn btn-secondary">Not in Library</button>
+          </div>
+        </div>
+      </div>
+      <!-- END PRODUCT CONTENT -->
+
+      <div class="title">
+        <h4><a href="#">Browse by Subject</a></h4>
+      </div>
+      <div class="bySubject">
+        <div class="slider">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 left"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-4.28 9.22a.75.75 0 000 1.06l3 3a.75.75 0 101.06-1.06l-1.72-1.72h5.69a.75.75 0 000-1.5h-5.69l1.72-1.72a.75.75 0 00-1.06-1.06l-3 3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6 right"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+
+          <div class="item">
+            <div class="image">
+              <img src="images/art.svg" alt="art" />
+            </div>
+            <p>Art</p>
+            <p>92,681 Books</p>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/art.svg" alt="art" />
+            </div>
+            <p>Art</p>
+            <p>92,681 Books</p>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/art.svg" alt="art" />
+            </div>
+            <p>Art</p>
+            <p>92,681 Books</p>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/art.svg" alt="art" />
+            </div>
+            <p>Art</p>
+            <p>92,681 Books</p>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/art.svg" alt="art" />
+            </div>
+            <p>Art</p>
+            <p>92,681 Books</p>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/art.svg" alt="art" />
+            </div>
+            <p>Art</p>
+            <p>92,681 Books</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="chart-title">
+        <h2>Around the Library</h2>
+        <p>
+          Here's what's happened over the last 28 days. More 
+          <a href="#">recent changes</a>
+          .
+        </p>
+      </div>
+      <div class="chart-container">
+        <div class="item">
+          <div class="charts"></div>
+          <b>3,884,873</b>
+          <p>UNIQUE VISITORS</p>
+        </div>
+        <div class="item">
+          <div class="charts"></div>
+          <b>3,884,873</b>
+          <p>UNIQUE VISITORS</p>
+        </div>
+        <div class="item">
+          <div class="charts"></div>
+          <b>3,884,873</b>
+          <p>UNIQUE VISITORS</p>
+        </div>
+        <div class="item">
+          <div class="charts"></div>
+          <b>3,884,873</b>
+          <p>UNIQUE VISITORS</p>
+        </div>
+        <div class="item">
+          <div class="charts"></div>
+          <b>3,884,873</b>
+          <p>UNIQUE VISITORS</p>
+        </div>
+      </div>
+
+      <div class="chart-title">
+        <h3>About the Project</h3>
+      </div>
+      <div class="about">
+        <div class="left">
+          <p>
+            Open Library is an open, editable library catalog, building towards a web page for every book ever published.
+            <a href="#">More</a>
+          </p>
+          <p>
+            Just like Wikipedia, you can contribute new information or corrections to the catalog. You can browse by <a href="#">subjects</a> , <a href="#">authors</a> or <a href="#">lists</a> members have created. If you love books, why not help build a library?
+          </p>
+        </div>
+        <div class="right">
+          <a href="#" class="first">Latest Blog Posts</a>
+          <div class="wrap">
+            <a href="#">Search Is Getting Smarter on Open Library</a>
+            <span> - December 21, 2022</span> 
+          </div>
+          <div class="wrap">
+            <a href="#">2022 Review</a>
+            <span> - December 21, 2022</span> 
+          </div>
+          <div class="wrap">
+            <a href="#">Search for Books in your Reading Log</a>
+            <span> - December 21, 2022</span> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-nav">
+
+        <ul>
+          <li><b>Open Library</b></li>
+          <li><a href="#">Vision</a></li>
+          <li><a href="#">Volunteer</a></li>
+          <li><a href="#">Partner With Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Donate</a></li>
+        </ul>
+        <ul>
+          <li><b>Open Library</b></li>
+          <li><a href="#">Vision</a></li>
+          <li><a href="#">Volunteer</a></li>
+          <li><a href="#">Partner With Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Donate</a></li>
+        </ul>
+        <ul>
+          <li><b>Open Library</b></li>
+          <li><a href="#">Vision</a></li>
+          <li><a href="#">Volunteer</a></li>
+          <li><a href="#">Partner With Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <ul>
+          <li><b>Open Library</b></li>
+          <li><a href="#">Vision</a></li>
+          <li><a href="#">Volunteer</a></li>
+          <li><a href="#">Partner With Us</a></li>
+          <div class="icons">
+            <div class="icon">
+              <img src="images/icons8-twitter.svg" alt="twitter">
+            </div>
+            <div class="icon">
+              <img src="images/icons8-github.svg" alt="github">
+            </div>
+          </div>
+        </ul>
+        <ul>
+          <li><b>Change Website Language</b></li>
+          <li><a href="#">Vision</a></li>
+          <li><a href="#">Volunteer</a></li>
+          <li><a href="#">Partner With Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Donate</a></li>
+          <li><a href="#">Donate</a></li>
+          <li><a href="#">Donate</a></li>
+          <li><a href="#">Donate</a></li>
+          <li><a href="#">Donate</a></li>
+        </ul>
+      </div>
+      
+      
+      <div class="term">
+        <hr>
+        <div class="icon">
+          <img src="images/pantheon.png" alt="pantheon"> 
+        </div>
+        <div class="text">
+          Open Library is an initiative of the <a href="#">Internet Archive</a> , a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in digital form. Other <a href="#">projects</a> include the <a href="#">Wayback Machine</a> , <a href="#">archive.org</a> and <a href="#">archive-it.org</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="charts.js"></script>
+  </body>
+</html>
